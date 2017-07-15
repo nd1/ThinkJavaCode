@@ -13,6 +13,9 @@ public class Echo {
         System.out.print("Type something else: ");
         line = in.nextLine();
         System.out.println("You also said: " + line);
+        
+        // close the scanner
+        in.close();
     }
 
 }
